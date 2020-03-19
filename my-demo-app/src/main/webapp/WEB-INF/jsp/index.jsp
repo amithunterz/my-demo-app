@@ -11,10 +11,10 @@ body {
 <body>
 	<h2>Hello World!</h2>
 
-	<form action="add" method="get">
+	<form action="add" method="post">
 
-		Name: <br> <input type="text" name="t1" id="name"><br>
-		Technology: <br> <input type="text" name="t2" id="tech"><br>
+		Name: <input type="text" name="t1" id="name"><br>
+		Technology: <input type="text" name="t2" id="tech"><br>
 		<input type="submit" value="Submit">
 
 	</form>
